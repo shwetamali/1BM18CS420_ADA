@@ -3,7 +3,7 @@
 #include <time.h>
 int sort(int a[],int k,int n)
 {
-	for(int i=0;i<k-2;i++)
+	for(int i=0;i<k;i++)
     {
 		int min=i;
 		for(int j=i+1;j<n-1;j++)
