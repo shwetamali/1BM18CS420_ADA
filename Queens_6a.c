@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include <time.h>
 void nqueens(int n)
 {
 	int k,x[20],count=0;
