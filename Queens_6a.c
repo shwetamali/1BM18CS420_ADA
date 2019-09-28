@@ -43,7 +43,10 @@ int place(int x[], int k)
 void main()
 {
 	int n;
+	clock_t start,end;
+	double d;
 	clrscr();
+	start=clock();
 	printf("Enter the number of Queens\n");
 	scanf("%d", &n);
 	nqueens(n);
