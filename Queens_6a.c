@@ -50,7 +50,6 @@ void main()
 	printf("Enter the number of Queens\n");
 	scanf("%d", &n);
 	nqueens(n);
-	sort(arr,k,n);
 	end=clock();
 	d=d+(double)(end-start)/CLOCKS_PER_SEC;
 	printf("Time complexity:%f",d);
