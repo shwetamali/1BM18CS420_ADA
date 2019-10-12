@@ -38,3 +38,10 @@ int main ( )
     cout<<"Time complexity:"<<d;
     return 0;
 }
+
+***********************OUTPUT**********************************
+Enter the first string: ABCDAF
+Enter the second string: ACBCF
+Longest Subsequence: ABCF
+Length: 4
+Time complexity:0.000236
