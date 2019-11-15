@@ -100,8 +100,10 @@ void smallestRange(int** arr, int n, int k)
 int main()
 {
    int k, n;
+   cout<<"Enter k value and array size:";
    cin >> k >> n;
    int** arr = new int* [k];
+   cout<<"Enter array elements :";
    for(int i = 0; i < k; i++)
     {
       arr[i] = new int[n];
